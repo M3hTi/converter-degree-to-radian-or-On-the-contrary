@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hands-on Project 4-5</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hands-on Project 4-5</h1>
+        <h2>Angular Degrees (°) to Circular Radians (rad) Converter</h2>
+        <div class="converter">
+            <div>
+                <label for="degrees">Angle in Degrees</label>
+                <input type="number" id="degrees" placeholder="60">
+            </div>
+            <span class="arrow">↔</span>
+            <div>
+                <label for="radians">Angle in Radians</label>
+                <input type="number" id="radians" placeholder="1.047">
+            </div>
+        </div>
+        <p>Enter an angular degree or a circular radian in either input box and press Tab to convert.</p>
+        <p id="error" style="color: red;"></p>
+    </div>
+    <script src="converter.js"></script>
+</body>
+</html>
